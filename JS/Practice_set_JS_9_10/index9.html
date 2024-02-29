@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set 9</title>
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .avg{
+        margin-top: 20px;
+        background-color: rgb(244, 149, 149);
+        height: 200px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+    }
+    .price{
+        background-color: rgb(244, 149, 149);
+        height: 200px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+    }
+    
+    button{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        max-width: 150px;
+        font-family: cursive;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="price">
+            <span><b>Given Array :</b></span>
+            <span id="giveArr"></span><br><br>
+            <span><b>Final price of Array after Offer :</b></span>
+            <span id="finalArr"></span>
+            
+        </div>
+        <div class="avg">
+            <button onclick="return marksAvg()" id="but">Store Marks</button><br><br>
+            <span><b>Student Marks of 6 Subjetct :</b></span>
+            <span id="arr"></span><br><br>
+            <span><b>Average of Student Marks :</b></span>
+            <span id="avg"></span>
+         </div>
+        
+    </div>
+    
+    <script src="script9.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.navbar{
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    
+    list-style-type: none;
+}
+
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.inner{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+  
+}

@@ -1,0 +1,51 @@
+.demo{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width : 300px) {
+    .demo{
+        background-color: green;
+    }
+    #font{
+        font-family: sans-serif;
+        font-weight: bold;
+        color: aqua;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 400px) {
+    .demo{
+        background-color: pink;
+    }
+    #font{
+        font-family: georgia;
+        font-weight: bold;
+        color: chocolate;
+    }
+}
+
+@media (min-width : 400px ) and (max-width: 600px) {
+    .demo{
+        background-color: red;
+    }
+    #font{
+        font-family: tahoma;
+        color: white;
+    }
+}
+
+@media (min-width : 600px) {
+    .demo{
+        background-color: blue;
+    }
+    #font{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: orangered;
+    }
+}
